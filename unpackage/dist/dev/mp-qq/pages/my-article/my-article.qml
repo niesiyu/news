@@ -1,0 +1,1 @@
+<view><block qq:if="{{lists.length===0}}"><uni-load-more vue-id="5ddd3720-1" status="loading" bind:__l="__l"></uni-load-more></block><block qq:for="{{lists}}" qq:for-item="item" qq:for-index="__i0__" qq:key="id"><list-card vue-id="{{'5ddd3720-2-'+__i0__}}" item="{{item}}" bind:__l="__l"></list-card></block></view>

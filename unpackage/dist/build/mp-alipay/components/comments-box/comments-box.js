@@ -1,0 +1,10 @@
+;my.defineComponent || (my.defineComponent = Component);(my["webpackJsonp"]=my["webpackJsonp"]||[]).push([["components/comments-box/comments-box"],{7678:function(e,t,n){"use strict";var o={commentsBox:function(){return Promise.resolve().then(n.bind(null,"e338"))}},c=function(){var e=this,t=e.$createElement,n=(e._self._c,e._f("formatTime")(e.comments.create_time));e.$mp.data=Object.assign({},{$root:{f0:n}})},r=[];n.d(t,"b",(function(){return c})),n.d(t,"c",(function(){return r})),n.d(t,"a",(function(){return o}))},"911b":function(e,t,n){},aad3:function(e,t,n){"use strict";n.r(t);var o=n("cbcc"),c=n.n(o);for(var r in o)"default"!==r&&function(e){n.d(t,e,(function(){return o[e]}))}(r);t["default"]=c.a},cbcc:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var o=n("ccdc"),c=function(){Promise.resolve().then(function(){return resolve(n("e338"))}.bind(null,n)).catch(n.oe)},r={name:"comments-box",components:{commentsBox:c},props:{comments:{type:Object,default:function(){return{}}},reply:{type:Boolean,default:!1}},filters:{formatTime:function(e){return(0,o.parseTime)(e)}},data:function(){return{}},methods:{commentsReply:function(e){e.is_reply&&(e.comments.reply_id=e.comments.comment_id,e.comments.comment_id=this.comments.comment_id),this.$emit("reply",e)}}};t.default=r},e338:function(e,t,n){"use strict";n.r(t);var o=n("7678"),c=n("aad3");for(var r in c)"default"!==r&&function(e){n.d(t,e,(function(){return c[e]}))}(r);n("f44e");var u,i=n("f0c5"),m=Object(i["a"])(c["default"],o["b"],o["c"],!1,null,null,null,!1,o["a"],u);t["default"]=m.exports},f44e:function(e,t,n){"use strict";var o=n("911b"),c=n.n(o);c.a}}]);
+;(my["webpackJsonp"] = my["webpackJsonp"] || []).push([
+    'components/comments-box/comments-box-create-component',
+    {
+        'components/comments-box/comments-box-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('c11b')['createComponent'](__webpack_require__("e338"))
+        })
+    },
+    [['components/comments-box/comments-box-create-component']]
+]);
